@@ -1,0 +1,301 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../font/Montserrat-Light.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+
+}
+
+#head {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+nav {
+    position: absolute fixed;
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+    margin-right: 3rem;
+
+
+
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    position: absolute fixed;
+}
+
+ul {
+    margin-top: 6rem;
+    text-decoration: none;
+    color:white;
+    text-decoration: none;
+}
+
+li {
+    font-size: larger;
+    margin: 1rem;
+
+
+}
+
+.list {
+    color: grey;
+}
+
+.list:hover {
+    color: black;
+}
+
+#collection {
+    display: flex;
+    position: relative;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    margin-left: 3rem;
+}
+
+.homme {
+
+    display: flex;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    letter-spacing: .2rem;
+    padding: .3rem;
+
+}
+
+.pic {
+    width: 94%;
+    margin-top: 2rem;
+
+}
+
+#top {
+    width: 94%;
+    margin-top: .3rem;
+    padding-top: .3rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.shopnow {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: large;
+    font-family: "roboto";
+    letter-spacing: .1rem;
+    margin-top: 2rem;
+}
+
+#photos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 1rem 13rem;
+    justify-content: space-around;
+
+}
+
+figure {
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 22%;
+    line-height: .5rem;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+.label {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: .5rem .2rem;
+    text-align: center;
+}
+
+figure img {
+    height: 300px;
+}
+
+.dscb {
+    color: grey;
+}
+
+.prix {
+    color: black;
+}
+
+.prix1 {
+    color: red;
+}
+
+.items {
+    display: flex;
+    margin-left: 14rem;
+    width: 80%;
+    color: grey;
+
+}
+
+#subform {
+    width: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13rem;
+
+
+}
+
+#bottom {
+    margin-left: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+}
+
+.sub {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.toget {
+
+    color: white;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin-top: auto;
+
+
+
+
+}
+
+#email input {
+    padding: .8rem;
+    font-family: "roboto";
+}
+
+.subscribe {
+    width: 120px;
+    background-color: red;
+    color: white;
+    padding: 6px 4px;
+    font-family: "roboto";
+    font-size: 15px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+
+
+}
+
+#contact {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 13rem;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    background-color: rgb(240, 240, 240);
+}
+
+
+.contform {
+    width: 40%;
+
+}
+
+.about {
+    width: 30%;
+    color: black;
+
+}
+
+.store {
+    width: 30%;
+    text-align: left;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.inputname {
+    padding: 9px;
+    width: 80%;
+    font-family: "roboto";
+    color: black;
+}
+
+.contSend {
+    padding: 9px;
+    width: 86%;
+    background-color: black;
+    color: white;
+    font-family: "roboto";
+    border: none;
+}
+
+.icon {
+    color: black;
+    font-size: 20px;
+}
+
+.powered {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 80%;
+    justify-content: center;
+    font-family: "roboto";
+    margin-left: 13rem;
+}
+@media screen and (min-width:576px){
+    figure{
+        width: 50%;
+    }
+}
+@media screen and (min-width:992px){
+    figure{
+        width: 25%;
+    }
+}
